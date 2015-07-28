@@ -15,11 +15,7 @@ $(document).ready(function(){
     $(this).css('color', 'rgba(213, 216, 135, 100)');
   });
 
+//
 
-  $('footer p').mouseenter(function(){
-    $(this).css('color', 'purple');
-  });
-  $('footer p').mouseleave(function(){
-    $(this).css('color', 'rgba(213, 216, 135, 100)');
-  });
+
 });
