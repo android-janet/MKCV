@@ -1,11 +1,13 @@
 $(document).ready(function(){
+//hover my name
   $('h1').mouseenter(function(){
     $(this).addClass('font-effect-neon');
   });
   $('h1').mouseleave(function(){
     $(this).removeClass('font-effect-neon');
   });
-  
+
+//hover links
   $('p').mouseenter(function(){
     $(this).css('color', 'purple');
   });
@@ -13,4 +15,11 @@ $(document).ready(function(){
     $(this).css('color', 'rgba(213, 216, 135, 100)');
   });
 
+
+  $('footer p').mouseenter(function(){
+    $(this).css('color', 'purple');
+  });
+  $('footer p').mouseleave(function(){
+    $(this).css('color', 'rgba(213, 216, 135, 100)');
+  });
 });
