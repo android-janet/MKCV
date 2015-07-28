@@ -1,0 +1,71 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ /* Coolors Exported Palette - coolors.co/7ac74f-a1cf6b-d5d887-e0c879-e87461 */
+ $color1: #7ac74f; //rgba(122, 199, 79, 100)
+ $color2: #a1cf6b; //rgba(161, 207, 107, 100)
+ $color3: #d5d887; //rgba(213, 216, 135, 100)
+ $color4: #e0c879; //rgba(224, 200, 121, 100)
+ $color5: #e87461; //rgba(232, 116, 97, 100)
+
+.jumbotron{
+  background-color: #e87461;
+  color: #000000;
+  border: 3px dotted #000000;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-shadow: 4px 4px 4px #aaa;
+  font-family: 'Crushed', cursive;
+}
+
+.jumbotron h1{
+  font-size: 72px;
+}
+
+.jumbotron h2{
+  font-size: 32px;
+}
+
+body{
+  background-color: black;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+.mylinks{
+  padding-top: 40px;
+  color: #d5d887;
+  font-size: 26px;
+  text-align: center;
+  font-family: 'Crushed', cursive;
+}
+
+footer{
+  border-top: 12px #e87461;
+  color: #e87461;
+  position: relative;
+
+}
