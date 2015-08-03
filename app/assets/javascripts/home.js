@@ -15,10 +15,10 @@ $(document).ready(function(){
     $(this).css('color', 'rgba(213, 216, 135, 100)');
   });
 
-//click about
-  $('#about').click(function(event){
-    //drop info about me here...
-    alert('GOOD MORNING!');
+//click about, display my info
+  $('#about').click(function(){
+    $('#aboutme').slideToggle('slow', function(){
+    });
   });
 
 
