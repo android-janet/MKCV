@@ -27,6 +27,14 @@ $(function(){
     });
   });
 
+  $('#skills').click(function(){
+    $('#skillsme').slideDown('slow', function(){
+      $('#skills').click(function(){
+        $('#skillsme').slideUp(function(){
+        });
+      });
+    });
+  });
 
 
 });
