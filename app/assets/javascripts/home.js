@@ -1,4 +1,6 @@
-$(document).ready(function(){
+$(function(){
+  // $('#aboutme').hide();
+
 //hover my name
   $('h1').mouseenter(function(){
     $(this).addClass('font-effect-neon');
@@ -17,8 +19,13 @@ $(document).ready(function(){
 
 //click about, display my info
   $('#about').click(function(){
-    $('#aboutme').slideToggle('slow', function(){
+    $('#aboutme').slideDown('slow', function(){
+      console.log('down!');
     });
+  });
+
+  $('#aboutme').click(function() {
+    $(this).slideUp();
   });
 
 
