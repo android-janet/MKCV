@@ -24,7 +24,7 @@ $(function(){
     });
   });
 
-  $('#aboutme').click(function() {
+  $('#about').click(function() {
     $(this).slideUp();
   });
 
