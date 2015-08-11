@@ -20,13 +20,13 @@ $(function(){
 //click about, display my info
   $('#about').click(function(){
     $('#aboutme').slideDown('slow', function(){
-      console.log('down!');
+      $('#about').click(function(){
+        $('#aboutme').slideUp(function(){
+        });
+      });
     });
   });
 
-  $('#about').click(function() {
-    $(this).slideUp();
-  });
 
 
 });
