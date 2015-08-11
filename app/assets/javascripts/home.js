@@ -10,10 +10,10 @@ $(function(){
   });
 
 //hover links
-  $('p').mouseenter(function(){
+  $('.mylinks h2').mouseenter(function(){
     $(this).css('color', 'purple');
   });
-  $('p').mouseleave(function(){
+  $('.mylinks h2').mouseleave(function(){
     $(this).css('color', 'rgba(213, 216, 135, 100)');
   });
 
