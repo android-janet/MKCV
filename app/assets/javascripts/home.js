@@ -21,17 +21,48 @@ $(function(){
   $('#about').click(function(){
     $('#aboutme').slideDown('slow', function(){
       $('#about').click(function(){
-        $('#aboutme').slideUp(function(){
-        });
+        $('#aboutme').slideUp();
       });
     });
   });
 
+//click skills, display skill info
   $('#skills').click(function(){
     $('#skillsme').slideDown('slow', function(){
       $('#skills').click(function(){
-        $('#skillsme').slideUp(function(){
-        });
+        $('#skillsme').slideUp();
+      });
+    });
+  });
+
+  $('#projects').click(function(){
+    $('#projectsme').slideDown('slow', function(){
+      $('#projects').click(function(){
+        $('#projectsme').slideUp();
+      });
+    });
+  });
+
+  $('#work').click(function(){
+    $('#worksme').slideDown('slow', function(){
+      $('#work').click(function(){
+        $('#worksme').slideUp();
+      });
+    });
+  });
+
+  $('#education').click(function(){
+    $('#educateme').slideDown('slow', function(){
+      $('#education').click(function(){
+        $('#educateme').slideUp();
+      });
+    });
+  });
+
+  $('#contact').click(function(){
+    $('#contactme').slideDown('slow', function(){
+      $('#contact').click(function(){
+        $('#contactme').slideUp();
       });
     });
   });
