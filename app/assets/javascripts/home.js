@@ -41,6 +41,7 @@ $(function(){
         $('#projectsme').slideUp();
       });
     });
+
   });
 
   $('#work').click(function(){
