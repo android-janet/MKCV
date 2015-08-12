@@ -17,6 +17,12 @@ $(function(){
     $(this).css('color', 'rgba(213, 216, 135, 100)');
   });
 
+//possible solution to slide issue?
+// $('#aboutme').hide();
+// $('#about').click(function(){
+//   $('#aboutme').slideToggle();
+// });
+
 //click about, display my info
   $('#about').click(function(){
     $('#aboutme').slideDown('slow', function(){
