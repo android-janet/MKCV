@@ -3,10 +3,10 @@ $(function(){
 
 //hover my name
   $('h1').mouseenter(function(){
-    $(this).addClass('font-effect-neon');
+    $(this).addClass('font-effect-anaglyph');
   });
   $('h1').mouseleave(function(){
-    $(this).removeClass('font-effect-neon');
+    $(this).removeClass('font-effect-anaglyph');
   });
 
 //hover links
