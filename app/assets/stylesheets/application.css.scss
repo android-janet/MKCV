@@ -69,3 +69,33 @@ h3{
   font-family: 'News Cycle';
   font-size: 20px;
 }
+
+/* twitter button class*/
+.twitterBtn{
+    background-color: black;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: black;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background-color: black;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: black;
+}
