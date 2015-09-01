@@ -33,7 +33,7 @@ $(document).ready(function(){
 
   //click projects
   $('#projects').click(function(){
-    $('#projectsme').slideToggle():
+    $('#projectsme').slideToggle();
   });
 
   //click employment history
