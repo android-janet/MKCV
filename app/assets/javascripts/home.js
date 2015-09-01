@@ -19,18 +19,18 @@ $(function(){
 
 //possible solution to slide issue?
 // $('#aboutme').hide();
-// $('#about').click(function(){
-//   $('#aboutme').slideToggle();
-// });
+$('#about').click(function(){
+  $('#aboutme').slideToggle();
+});
 
 //click about, display my info
-  $('#about').click(function(){
-    $('#aboutme').slideDown('slow', function(){
-      $('#about').click(function(){
-        $('#aboutme').slideUp();
-      });
-    });
-  });
+  // $('#about').click(function(){
+  //   $('#aboutme').slideDown('slow', function(){
+  //     $('#about').click(function(){
+  //       $('#aboutme').slideUp();
+  //     });
+  //   });
+  // });
 
 //click skills, display skill info
   $('#skills').click(function(){
