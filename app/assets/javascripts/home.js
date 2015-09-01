@@ -1,7 +1,6 @@
-$(function(){
-  // $('#aboutme').hide();
+$(document).ready(function(){
 
-//hover my name
+  //hover my name
   $('h1').mouseenter(function(){
     $(this).addClass('font-effect-anaglyph');
   });
@@ -9,7 +8,7 @@ $(function(){
     $(this).removeClass('font-effect-anaglyph');
   });
 
-//hover links
+  //hover links
   $('.mylinks h2').mouseenter(function(){
     $(this).css('color', 'purple');
   });
@@ -17,61 +16,34 @@ $(function(){
     $(this).css('color', 'rgba(213, 216, 135, 100)');
   });
 
-//possible solution to slide issue?
-// $('#aboutme').hide();
-$('#about').click(function(){
-  $('#aboutme').slideToggle();
-});
-
-//click about, display my info
-  // $('#about').click(function(){
-  //   $('#aboutme').slideDown('slow', function(){
-  //     $('#about').click(function(){
-  //       $('#aboutme').slideUp();
-  //     });
-  //   });
-  // });
-
-//click skills, display skill info
-  $('#skills').click(function(){
-    $('#skillsme').slideDown('slow', function(){
-      $('#skills').click(function(){
-        $('#skillsme').slideUp();
-      });
-    });
+  //click about me
+  $('#about').click(function(){
+    $('#aboutme').slideToggle();
   });
 
-  $('#projects').click(function(){
-    $('#projectsme').slideDown('slow', function(){
-      $('#projects').click(function(){
-        $('#projectsme').slideUp();
-      });
-    });
-
-  });
-
-  $('#work').click(function(){
-    $('#worksme').slideDown('slow', function(){
-      $('#work').click(function(){
-        $('#worksme').slideUp();
-      });
-    });
-  });
-
-  $('#education').click(function(){
-    $('#educateme').slideDown('slow', function(){
-      $('#education').click(function(){
-        $('#educateme').slideUp();
-      });
-    });
-  });
-
+  //click contact
   $('#contact').click(function(){
-    $('#contactme').slideDown('slow', function(){
-      $('#contact').click(function(){
-        $('#contactme').slideUp();
-      });
-    });
+    $('#contactme').slideToggle();
+  });
+
+  //click skills
+  $('#skills').click(function(){
+    $('#skillsme').slideToggle();
+  });
+
+  //click projects
+  $('#projects').click(function(){
+    $('#projectsme').slideToggle():
+  });
+
+  //click employment history
+  $('#work').click(function(){
+    $('#worksme').slideToggle();
+  });
+
+  //click education
+  $('#education').click(function(){
+    $('#educateme').slideToggle();
   });
 
 
